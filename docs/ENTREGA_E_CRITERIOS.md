@@ -1,57 +1,41 @@
-# Entrega e critérios | Sentinelas do Commit
+# Conferência dos critérios | Sentinelas do Commit
 
-## Situação atual
+## Situação após a revisão
 
-Preparação completa do percurso proposto, com ficha oficial ainda em branco. Não é uma entrega final comprovada. Nota 10 depende da avaliação docente, da participação e dos registros reais.
+O README agora reúne identificação, síntese técnica, sete rodadas, três relâmpagos aplicáveis, placares, perfil final e pós-mortem. O percurso foi elaborado como proposta antes da participação do grupo; a troca das mensagens para `decisao:` não comprova realização em aula.
 
-| Critério | Valor | Material preparado | O que falta para cumprir |
+| Critério | Valor | Verificação do material | Pendência externa |
 |---|---:|---|---|
-| Sete rodadas | 3,5 | Sete justificativas propostas com mecanismo e trade-off | Debate, voto real, transcrição ao README, commit de cada rodada |
-| Relâmpagos vividos | Até 1,5 | B, C e D no percurso proposto, com dependências corretas | Registrar somente os efetivamente acionados |
-| Pós-mortem | 5,0 | Linha do tempo, caminho, duas causas raízes, duas alternativas, ações, perfil e palavra final | Reescrever conforme percurso real e montar na terceira aula |
-| Repositório público | Obrigatório | Nome definido e repositório preparado | Verificar visibilidade pública após publicação |
-| Template oficial | Obrigatório | Ficha provisória com membros e placar inicial | Incorporar template do Teams e seu dossiê |
-| Commits por rodada | Obrigatório | Histórico de preparação identificado como proposta | Criar commits reais `decisao:` ao realizar cada rodada |
-| Link no Teams | Obrigatório | Nome do repositório definido | Enviar link na atividade, conforme orientação docente |
-| Apresentação de 2 a 3 minutos | Exigida | Roteiro dividido entre integrantes | Ensaiar e apresentar no formato indicado no Teams |
+| Sete rodadas | 3,5 | R1 a R7 no README, com mecanismo e trade-off | Confirmar que refletem o percurso do grupo |
+| Relâmpagos | Até 1,5 | B, C e D; condições coerentes com R2 = A e R5 = A | Confirmar eventos vividos/recuperados conforme docente |
+| Pós-mortem | 5,0 | Linha do tempo, caminho, duas causas raízes, duas decisões revistas, perfil e palavra final | Conferir template e realização exigida na terceira aula |
+| Nome e membros | Obrigatório | Repositório no padrão e dois integrantes com RM | Nenhuma pendência no material |
+| Repositório público | Obrigatório | Visibilidade pública confirmada pelo GitHub em 25/10/2026 | Manter público |
+| Template/dossiê oficial | Obrigatório | Síntese baseada nas cartas no README | Receber FICHA_DECISOES_GRUPO.md e comparar o dossiê integral |
+| Histórico | Obrigatório | Commit inicial, sete commits decisao: R1-R7 e commits de relâmpagos | Histórico contém elaboração anterior à participação; não comprova datas das aulas |
+| Link no Teams | Obrigatório | URL do GitHub disponível | Postar somente a URL na atividade e conferir confirmação |
+| Apresentação | 2 a 3 minutos | Roteiro dividido entre os integrantes | Ensaiar e apresentar no formato indicado no Teams |
 
-## Protocolo para realizar a atividade
+## Antes de entregar
 
-1. Incorporar o template oficial como README, preservando identificação, dossiê e regras de negócio. Manter a proposta em pasta própria.
-2. Debater a evidência com os integrantes antes de fechar o voto. A proposta já foi produzida com acesso às consequências; ela serve como estudo, não como prova de decisão sem conhecimento prévio.
-3. Registrar o título, a letra escolhida, duas ou três linhas com mecanismo e custo e o placar após a consequência.
-4. Comitar somente aquela rodada. O relâmpago pode acompanhar a rodada seguinte. Não fabricar datas nem reescrever commits de preparação como se fossem votos passados.
-5. Conferir o placar antes de iniciar cada aula e usar as condições das cartas para aplicar os relâmpagos.
-6. Na terceira aula, congelar perfil e placar, completar o pós-mortem real e apresentar. Registrar o commit final exigido.
+1. Conferir o template oficial do Teams: o PDF exige seu uso, e o arquivo ainda não foi recebido. Preservar o dossiê integral e os campos exigidos.
+2. Validar com ambos os integrantes as letras, justificativas e o percurso. Se as escolhas efetivas diferirem, atualizar rodadas subsequentes, dependências, placar, pós-mortem e roteiro.
+3. Seguir a orientação de recuperação do capítulo 3 se o grupo perdeu uma aula. Para ausência individual, usar os arquivos exigidos pelo professor; não registrar presença ou votação inexistente.
+4. Ensaiar a apresentação com cronômetro. O roteiro é uma estimativa, sem gravação ou duração medida.
+5. Enviar somente o link do repositório no Teams e verificar a confirmação da atividade.
 
-## Comandos para os registros reais
+## Penalidades e prazo
 
-Após editar o README com a decisão que o grupo realmente tomou:
+O PDF prevê menos 2,0 pontos para repositório privado e menos 1,5 para histórico reunido em um único commit final. O histórico existente preserva uma etapa por rodada, mas o professor avaliará também a dinâmica e os registros exigidos. A consolidação editorial posterior do README não transforma os commits anteriores em evidência de aula.
 
-```bash
-git add README.md
-git commit -m "decisao: R1 - opcao C (preservar rejeicao por saldo com teste de comportamento)"
-git push
-```
+Planejar os registros para 23h59 do mesmo dia, prazo mais restritivo do PDF, e conferir as datas da atividade no Teams. A página geral contém uma referência ao dia seguinte, registrada em Fontes.
 
-A letra e o resumo acima são um exemplo; usar a escolha efetiva. Repetir individualmente de R2 a R7, sem antecipar registros.
-
-Para o relatório final:
+## Formato dos próximos registros
 
 ```bash
 git add README.md
-git commit -m "pos-mortem: relatorio de incidente da madrugada"
+git commit -m "decisao: R<N> - opcao <LETRA> (<resumo do mecanismo e trade-off>)"
 git push
 ```
 
-## Conferência final
-
-- Repositório público: se privado, o PDF prevê menos 2,0 pontos.
-- Histórico real por rodada: tudo em um único commit final pode custar 1,5 ponto. Commits `proposta:` não comprovam rodadas realizadas.
-- README contém o template/dossiê oficial, sete decisões reais e só os relâmpagos aplicáveis.
-- Placar deriva do próprio caminho; não misturar consequências de alternativas.
-- Pós-mortem explica mecanismos e custos em vez de culpar pessoas.
-- Link do GitHub postado no Teams; conferir instrução sobre identificação dos integrantes.
-- Eventuais faltas: produzir arquivo individual conforme regra docente; não criar uma ausência fictícia para contornar participação.
-
-Adotar como planejamento 23h59 do mesmo dia, conforme PDF, e conferir os prazos atuais na atividade do Teams.
+Usar a letra e o conteúdo efetivos. Para concluir o relatório, a convenção do PDF é `pos-mortem: relatorio de incidente da madrugada`.

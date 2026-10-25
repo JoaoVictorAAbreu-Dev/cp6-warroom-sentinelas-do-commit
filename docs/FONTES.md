@@ -20,7 +20,7 @@ As tabelas das cartas são a fonte dos deltas e condições de participação. T
 
 ## Pendências e divergências
 
-1. Não recebido: FICHA_DECISOES_GRUPO.md, anexo no Teams. É necessário para validar o contrato integral e o formato oficial. O README atual é provisório.
+1. Não recebido: FICHA_DECISOES_GRUPO.md, anexo no Teams. É necessário para validar o contrato integral e o formato oficial. O README reúne a resolução e uma síntese das cartas; a conformidade com o dossiê oficial permanece pendente.
 2. O PDF pede commits até 23h59 do mesmo dia. A seção da página geral cita o dia seguinte, enquanto outro trecho também cita 23h59. Planejar pelo prazo mais restritivo e conferir no Teams.
 3. PDF: commit final `pos-mortem: relatorio de incidente da madrugada`; página: forma abreviada sem “da madrugada”. Preferir o texto do PDF.
 4. R6 B: correções só entram após a abertura; R7 saudável A: abertura no horário protegida pela suíte. A proposta explicita a diferença entre regra narrativa e prova de versão implantada.
