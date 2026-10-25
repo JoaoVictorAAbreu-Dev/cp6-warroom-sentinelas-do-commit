@@ -108,3 +108,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** Aplicável porque R2 = A. O saldo de 150 é o exemplo desta carta; nenhuma suíte real foi executada.
 
+## R6 - O teste vermelho às 03h45 (03h45)
+
+**Tipo:** rodada · **Voto proposto:** B
+
+**Justificativa:** Investigar a divergência preserva o contrato TED = R$ 5 e revela o literal incorreto de R$ 50 no serviço, em vez de normalizar o defeito no teste. Aceitamos perder a janela, R$ 30 mil simulados e um ponto de reputação; a correção deve manter a asserção e passar pela suíte antes da implantação.
+
+**Placar simulado após esta decisão:** 🔥 7 · 💰 R$ 90 mil · 🧹 0.
+
+**Mecanismo e aula:** Contrato, regressão e testes unitários (Aula 15).
+
+**Consequência e limite:** Estado SAUDÁVEL para a regra do jogo. A própria carta diz que as correções só entram depois da abertura; isso exige cautela operacional no Go/No-Go.
+
