@@ -96,3 +96,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** Aplicável porque R5 = A. Se o dossiê exigir CPF e tipo, rejeitar a construção incompleta ou propor um cadastro preliminar separado, sem tratá-lo como conta válida.
 
+## Evento relâmpago D - O teste verde que não testa nada (03h20)
+
+**Tipo:** relâmpago · **Voto proposto:** A
+
+**Justificativa:** Adicionar assertEquals para conferir saldo final de 150 após depósito de 50 sobre 100 verifica o comportamento que o teste prometia. Aceitamos os dez minutos de revisão e incluímos a rejeição de depósitos inválidos conforme o contrato; executar sem assert não comprova o crédito.
+
+**Placar simulado após esta decisão:** 🔥 8 · 💰 R$ 60 mil · 🧹 1.
+
+**Mecanismo e aula:** Testes unitários e asserções (Aula 15).
+
+**Consequência e limite:** Aplicável porque R2 = A. O saldo de 150 é o exemplo desta carta; nenhuma suíte real foi executada.
+
