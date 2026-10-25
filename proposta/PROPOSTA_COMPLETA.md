@@ -36,3 +36,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** A opção D também é tecnicamente forte e reutiliza findByTitular; escolher A preserva um caminho manual que exige revisão dos recursos.
 
+## Evento relâmpago B - As conexões que não fecham (22h40)
+
+**Tipo:** relâmpago · **Voto proposto:** A
+
+**Justificativa:** Try-with-resources fecha ResultSet, PreparedStatement e Connection mesmo quando ocorre exceção, devolvendo a conexão ao pool. Aceitamos cerca de 30 minutos para corrigir os três métodos; aumentar o pool ou reiniciar apenas adiaria a exaustão.
+
+**Placar simulado após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1.
+
+**Mecanismo e aula:** Gerenciamento de recursos JDBC (Aula 12).
+
+**Consequência e limite:** Aplicável porque R2 = A. A aquisição da conexão deve respeitar o DataSource e o gerenciamento transacional da aplicação; não criar um pool paralelo.
+
