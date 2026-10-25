@@ -72,3 +72,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** Não alegar integridade histórica total: comprovantes já emitidos continuam errados. A correção de dados é prioridade antes de considerar o incidente encerrado.
 
+## R5 - A fábrica que devolve null (01h30)
+
+**Tipo:** rodada · **Voto proposto:** A
+
+**Justificativa:** A factory deve lançar uma exceção explícita para tipo não suportado, impedindo que null chegue ao save e esconda a origem da falha. Aceitamos rejeitar UNIVERSITARIA e perder um ponto de reputação no cenário; fail-fast melhora o diagnóstico, mas não implementa o produto anunciado.
+
+**Placar simulado após esta decisão:** 🔥 8 · 💰 R$ 60 mil · 🧹 2.
+
+**Mecanismo e aula:** Polimorfismo, exceções e Factory (Aulas 8, 11 e 14).
+
+**Consequência e limite:** Mapear a exceção para uma resposta compreensível é trabalho proposto; o status HTTP exato depende do contrato não recebido.
+
