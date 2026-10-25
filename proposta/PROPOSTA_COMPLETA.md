@@ -120,3 +120,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** Estado SAUDÁVEL para a regra do jogo. A própria carta diz que as correções só entram depois da abertura; isso exige cautela operacional no Go/No-Go.
 
+## R7 - Go/No-Go da Black Friday (06h15)
+
+**Tipo:** rodada · **Voto proposto:** A
+
+**Justificativa:** Pela classificação saudável obtida em R6 = B, propomos abrir no horário preservando o teste da taxa e evitando mais indisponibilidade. Aceitamos uma unidade de dívida técnica e a manutenção posterior do serviço concentrado; uma implantação real exigiria confirmar a versão corrigida em produção, o que esta simulação não comprova.
+
+**Placar simulado após esta decisão:** 🔥 8 · 💰 R$ 90 mil · 🧹 1.
+
+**Mecanismo e aula:** Coesão, risco de implantação e evidência de testes (Aulas 13 a 15).
+
+**Consequência e limite:** A tabela saudável prevê abertura no horário e estabilidade no pico; isso é consequência do jogo, não resultado de teste de carga. Se as correções estiverem pendentes, reconsiderar B ou C com o grupo.
+
