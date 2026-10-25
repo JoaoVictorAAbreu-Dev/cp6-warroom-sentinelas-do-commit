@@ -24,3 +24,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** A tabela prevê oito clientes afetados no total antes da correção. O teste não recupera os saldos já corrompidos.
 
+## R2 - A injeção que derreteu o banco (21h02)
+
+**Tipo:** rodada · **Voto proposto:** A
+
+**Justificativa:** PreparedStatement com WHERE titular = ? e setString separa o valor recebido da estrutura SQL e elimina a concatenação vulnerável. Aceitamos manter JDBC manual para a correção estimada em 40 minutos, dez a menos que a migração JPA; fechamento de recursos passa a ser uma obrigação explícita.
+
+**Placar simulado após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1.
+
+**Mecanismo e aula:** JDBC, parâmetros vinculados e SQL injection (Aula 12).
+
+**Consequência e limite:** A opção D também é tecnicamente forte e reutiliza findByTitular; escolher A preserva um caminho manual que exige revisão dos recursos.
+
