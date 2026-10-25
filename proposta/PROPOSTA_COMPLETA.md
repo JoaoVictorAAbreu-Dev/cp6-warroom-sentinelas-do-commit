@@ -48,3 +48,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** Aplicável porque R2 = A. A aquisição da conexão deve respeitar o DataSource e o gerenciamento transacional da aplicação; não criar um pool paralelo.
 
+## R3 - A noite das contas gêmeas (22h50)
+
+**Tipo:** rodada · **Voto proposto:** D
+
+**Justificativa:** Delegar a geração à sequence do banco remove a dependência de um Singleton em memória e coordena identificadores entre instâncias da aplicação. Aceitamos uma hora de migração e R$ 10 mil simulados; impor unicidade e reconciliar duplicatas antigas continua necessário, e sequence pode deixar lacunas.
+
+**Placar simulado após esta decisão:** 🔥 8 · 💰 R$ 45 mil · 🧹 1.
+
+**Mecanismo e aula:** Singleton e responsabilidade pela criação (Aula 14), persistência (Aula 13).
+
+**Consequência e limite:** Sequence não corrige extratos cruzados antigos nem promete numeração sem lacunas. A exigência contratual exata deve ser conferida no dossiê.
+
