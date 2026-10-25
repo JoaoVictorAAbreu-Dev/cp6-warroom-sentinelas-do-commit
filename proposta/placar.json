@@ -1,0 +1,165 @@
+{
+  "natureza": "simulacao",
+  "inicial": [
+    7,
+    0,
+    2
+  ],
+  "passos": [
+    {
+      "incidente": "R1",
+      "hora_narrativa": "19h12",
+      "opcao": "C",
+      "delta": [
+        1,
+        35,
+        -1
+      ],
+      "placar": [
+        8,
+        35,
+        1
+      ]
+    },
+    {
+      "incidente": "R2",
+      "hora_narrativa": "21h02",
+      "opcao": "A",
+      "delta": [
+        0,
+        0,
+        0
+      ],
+      "placar": [
+        8,
+        35,
+        1
+      ]
+    },
+    {
+      "incidente": "Evento relâmpago B",
+      "hora_narrativa": "22h40",
+      "opcao": "A",
+      "delta": [
+        0,
+        0,
+        0
+      ],
+      "placar": [
+        8,
+        35,
+        1
+      ]
+    },
+    {
+      "incidente": "R3",
+      "hora_narrativa": "22h50",
+      "opcao": "D",
+      "delta": [
+        0,
+        10,
+        0
+      ],
+      "placar": [
+        8,
+        45,
+        1
+      ]
+    },
+    {
+      "incidente": "R4",
+      "hora_narrativa": "00h47",
+      "opcao": "A",
+      "delta": [
+        1,
+        15,
+        1
+      ],
+      "placar": [
+        9,
+        60,
+        2
+      ]
+    },
+    {
+      "incidente": "R5",
+      "hora_narrativa": "01h30",
+      "opcao": "A",
+      "delta": [
+        -1,
+        0,
+        0
+      ],
+      "placar": [
+        8,
+        60,
+        2
+      ]
+    },
+    {
+      "incidente": "Evento relâmpago C",
+      "hora_narrativa": "02h20",
+      "opcao": "B",
+      "delta": [
+        0,
+        0,
+        0
+      ],
+      "placar": [
+        8,
+        60,
+        2
+      ]
+    },
+    {
+      "incidente": "Evento relâmpago D",
+      "hora_narrativa": "03h20",
+      "opcao": "A",
+      "delta": [
+        0,
+        0,
+        -1
+      ],
+      "placar": [
+        8,
+        60,
+        1
+      ]
+    },
+    {
+      "incidente": "R6",
+      "hora_narrativa": "03h45",
+      "opcao": "B",
+      "delta": [
+        -1,
+        30,
+        -1
+      ],
+      "placar": [
+        7,
+        90,
+        0
+      ]
+    },
+    {
+      "incidente": "R7",
+      "hora_narrativa": "06h15",
+      "opcao": "A",
+      "delta": [
+        1,
+        0,
+        1
+      ],
+      "placar": [
+        8,
+        90,
+        1
+      ]
+    }
+  ],
+  "final": [
+    8,
+    90,
+    1
+  ]
+}
