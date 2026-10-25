@@ -36,3 +36,12 @@ Os eventos relâmpago são registrados apenas quando o grupo for afetado. Não h
 ## Pós-mortem real
 
 A preencher após o percurso do grupo: linha do tempo, escolhas e consequências, causas raízes de dois incidentes com aulas e mecanismos, duas decisões que mudaríamos, perfil final e uma palavra de fechamento.
+
+## Material de preparação
+
+- [Proposta completa e pós-mortem simulado](proposta/PROPOSTA_COMPLETA.md)
+- [Roteiro para apresentação de 2 a 3 minutos](proposta/ROTEIRO_APRESENTACAO.md)
+- [Controle dos critérios e instruções para a entrega](docs/ENTREGA_E_CRITERIOS.md)
+- [Referências e limites da preparação](docs/FONTES.md)
+
+A proposta é material de estudo. Suas letras e consequências não substituem o consenso dos integrantes nem comprovam participação, votação, execução de código ou entrega no Teams.
