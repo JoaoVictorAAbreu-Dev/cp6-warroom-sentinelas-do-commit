@@ -84,3 +84,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** Mapear a exceção para uma resposta compreensível é trabalho proposto; o status HTTP exato depende do contrato não recebido.
 
+## Evento relâmpago C - O cadastro com metade dos campos (02h20)
+
+**Tipo:** relâmpago · **Voto proposto:** B
+
+**Justificativa:** Builder organiza a construção com campos nomeados, concentra defaults permitidos e valida invariantes no build(), evitando construtores telescópicos. Aceitamos o esforço adicional de construção explícita; CPF e tipo obrigatórios não podem ser inventados nem omitidos para satisfazer a campanha.
+
+**Placar simulado após esta decisão:** 🔥 8 · 💰 R$ 60 mil · 🧹 2.
+
+**Mecanismo e aula:** Builder e construção válida de objetos (Aula 14).
+
+**Consequência e limite:** Aplicável porque R5 = A. Se o dossiê exigir CPF e tipo, rejeitar a construção incompleta ou propor um cadastro preliminar separado, sem tratá-lo como conta válida.
+
