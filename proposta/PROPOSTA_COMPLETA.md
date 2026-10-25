@@ -60,3 +60,15 @@ O contrato integral da API está ausente: esta proposta usa somente regras expl�
 
 **Consequência e limite:** Sequence não corrige extratos cruzados antigos nem promete numeração sem lacunas. A exigência contratual exata deve ser conferida no dossiê.
 
+## R4 - O comprovante que aponta pra pessoa errada (00h47)
+
+**Tipo:** rodada · **Voto proposto:** A
+
+**Justificativa:** Gravar origem e destino na ordem correta do construtor corrige os novos comprovantes sem movimentar novamente os saldos, que já estão certos. Aceitamos manter o histórico antigo invertido para reduzir o escopo imediato; a reconciliação dos registros anteriores fica como dívida de dados com responsável e validação.
+
+**Placar simulado após esta decisão:** 🔥 9 · 💰 R$ 60 mil · 🧹 2.
+
+**Mecanismo e aula:** Mapeamento e persistência de entidades (Aula 13).
+
+**Consequência e limite:** Não alegar integridade histórica total: comprovantes já emitidos continuam errados. A correção de dados é prioridade antes de considerar o incidente encerrado.
+
